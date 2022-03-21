@@ -25,6 +25,7 @@ const argv = require("yargs")
     },
   })
   .demandCommand().argv;
+console.log(argv)
 
 switch (argv._[0]) {
   case "config":
